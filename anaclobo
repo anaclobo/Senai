@@ -1,0 +1,50 @@
+programa
+{
+	funcao inicio ()
+	{
+		cadeia nome
+		inteiro result1, result6, result8
+		escreva("\t\t\tﾟ･*☆¸¸.•*¨*• TABUADA •*¨*•.¸¸☆*･ﾟ\n\n")
+		escreva("Olá, ")
+		leia(nome)
+		escreva("\nSeja bem vindo(a)!\nEssa é a Tabuada Inteligente e você terá o \nacesso limitado aos seguintes números: 1,6 e 8!\nPara descobrir a tabuada dos números apresentados, \nsiga em frente:\n\n")
+	     escreva("\t\t\t.｡.:*✧ Tabuada - Número 1 ✧*:.｡.\n\n")
+	     
+		para (inteiro i=1 ; i<10 ; i++){
+		result1=1+i
+		     escreva("1 + ",i," = ",result1,"\t")
+		result1=i-1
+		     escreva(i," - 1"," = ",result1,"\t")
+		result1=1*i
+		     escreva("1x",i," = ",result1,"\t\t")
+		result1=i*1
+		     escreva(i,"÷1"," = ",result1,"\t\n")
+		}    
+		escreva("\n")
+		escreva("\t\t\t.｡.:*✧ Tabuada - Número 6 ✧*:.｡.\n\n")
+		 
+		para (inteiro i=1 ; i<10 ; i++){
+		result6=6+i
+		      escreva("6 + ", i," = ",result6,"\t")
+		result6=i+6
+			  escreva(result6," - 6"," = ",i,"\t")
+		result6=6*i
+		      escreva("6 x ",i," = ",result6,"\t")
+	    result6=i*6
+		      escreva(result6," ÷ 6"," = ",i,"\n")
+		} 
+		escreva("\n")
+		escreva("\t\t\t.｡.:*✧ Tabuada - Número 8 - ✧*:.｡.\n\n")
+		para (inteiro i=1 ; i<10 ; i++){
+		result8=8+i
+		      escreva("8 + ",i," = ",result8,"\t")
+		result8=i+8
+		      escreva(result8," - 8"," = ",i,"\t")
+		result8=8*i
+		      escreva("8 x ",i," = ",result8,"\t")
+		result8=i*8
+		      escreva(result8," ÷ 8"," = ",i,"\t\n")
+		}
+		
+	}
+}
